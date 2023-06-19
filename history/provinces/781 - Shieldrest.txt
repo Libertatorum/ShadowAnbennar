@@ -1,17 +1,19 @@
 
 # No previous file for Puerto Deseado
-culture = green_orc
-religion = great_dookan
+owner = 01A
+controller = 01A
+add_core = 01A
+culture = cliff_gnome
+religion = regent_court
 capital = ""
-tribal_owner = B23
+trade_goods = iron
 hre = no
 
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 4
+base_manpower = 6
 
-trade_goods = unknown
+is_city = yes
 
-native_size = 25
-native_ferocity = 8
-native_hostileness = 6
+
+
