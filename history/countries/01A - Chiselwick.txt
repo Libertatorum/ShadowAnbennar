@@ -6,6 +6,7 @@ primary_culture = cliff_gnome
 religion = regent_court
 technology_group = tech_gnomish
 capital = 781 #Shieldrest
+fixed_capital = 781 #Shieldrest
 
 historical_friend = A06 #Nimscodd
 historical_friend = A19 #Portnamm
