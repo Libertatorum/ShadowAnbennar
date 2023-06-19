@@ -114,7 +114,7 @@
         effect = { }
     }
     01A_3_3 = { 
-        #this could be building reform? trigger massive building delays for like 5 years, then permanent buff of -20% cost and build time?
+        #this could be great project reform? new great project? new statue dedicated to Gnomeler?
         icon = mission_unknown_mission
         position = 3
         required_missions = { 01A_3_2 }
@@ -142,7 +142,7 @@
         effect = { }
     }
     01A_4_2 = { 
-        #this could be religious reform? maybe needs some new temples erected, new great project? new statue dedicated to Gnomeler?
+        #this could be building reform? trigger massive building delays for like 5 years, then permanent buff of -20% cost and build time? for new temples?
         icon = mission_unknown_mission
         position = 3
         required_missions = { 01A_4_1 }
