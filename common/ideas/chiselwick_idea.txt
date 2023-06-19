@@ -1,12 +1,12 @@
 #Chiselwick ideas
 01A_ideas = {
 	start = {
-		defensiveness = 0.2
-		stability_cost_modifier = -0.10
+		fire_damage = 0.1
+		drill_gain_modifier = 0.25
 	}
 
 	bonus = {
-		prestige_decay = -0.01
+		artillery_power = 0.1
 	}
 
 	trigger = {
@@ -16,25 +16,26 @@
 	}
 	free = yes		#will be added at load.
 
-	01A_state_industry = { #Production
-		production_efficiency = 0.10
+	01A_fourteen_words = { #AE 0.15
+		ae_impact = -0.15
+	}
+	01A_gnommish_brilliance = { #Innovative 0.30
+		innovativeness_gain = 0.3
+	}
+	01A_honorary_gnomes = { # Manpower +0.15
+		global_manpower_modifier = 0.15
+	}
+	01A_pinkshirts = { #Autonomy -0.15
+		autonomy_change_time = -0.15
 	}
 	01A_replace_merchant = { #Merchants 
 		merchants = 2
 	}
-	01A_gnommish_brilliance = { #Innovative 0.30
-		
-	}
-	01A_fourteen_words = { #AE 0.15
-		
-	}
-	01A_pinkshirts = { #Autonomy -0.15
-		diplomatic_reputation = 1
+	01A_state_industry = { #Production
+		production_efficiency = 0.10
 	}
 	01A_gnomestown = {  # Discipline
 		discipline = 0.05
 	}
-	01A_honorary_gnomes = { # Manpower +0.15
-		
-	}
+	
 }
