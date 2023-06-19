@@ -1,0 +1,45 @@
+country_event = {
+    #TOTAL PATRICIAN DEATH!!!!
+    id = gnomeler_kill_patricians.2000
+	title = gnomeler_kill_patricians.2000.title
+	desc = gnomeler_kill_patricians.2000.desc
+	picture = BURGHER_ESTATE_eventPicture
+	
+    is_triggered_only = yes 
+    option = {
+        name = gnomeler_total_patrician_death
+        831 = {
+			if =  { 
+				limit = { owned_by = ROOT }
+				remove_province_modifier = castonath_patrician_influence_full
+				remove_province_modifier = castonath_patrician_influence_significant
+				remove_province_modifier = castonath_patrician_influence_considerable
+				remove_province_modifier = castonath_patrician_influence_some
+				add_devastation = 100
+			}
+		}
+		832 = {
+			if =  { 
+				limit = { owned_by = ROOT }
+				remove_province_modifier = castonath_patrician_influence_full
+				remove_province_modifier = castonath_patrician_influence_significant
+				remove_province_modifier = castonath_patrician_influence_considerable
+				remove_province_modifier = castonath_patrician_influence_some
+				add_devastation = 100
+			}
+		}
+		833 = {
+			if =  { 
+				limit = { owned_by = ROOT }
+				remove_province_modifier = castonath_patrician_influence_full
+				remove_province_modifier = castonath_patrician_influence_significant
+				remove_province_modifier = castonath_patrician_influence_considerable
+				remove_province_modifier = castonath_patrician_influence_some
+				add_devastation = 100
+			}
+		}
+        add_prestige = 100
+        cash = 1000
+        stability = 3
+    }
+}
