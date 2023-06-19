@@ -890,3 +890,5 @@ Z99 = "countries/Black Demense.txt"
 H99 = "countries/Feyslicer.txt" # Putting this at the end so it doesn't take rebel priority
 
 NPC = "countries/NPC.txt"
+
+01A = "countries/Chiselwick.txt"
