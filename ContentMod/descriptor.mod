@@ -13,6 +13,9 @@ tags={
 	"Expansion"
 	"Gameplay"
 }
+dependencies={
+	"Anbennar: A Fantasy Total Conversion"
+}
 name="Shadow Anbennar: An Anbennar Submod"
 picture="thumbnail.png"
 replace_path="common/bookmarks"
