@@ -1,0 +1,49 @@
+country_decisions = { 
+    artufazez_nation = { 
+        major = yes 
+        potential = { 
+            capital_scope = { 
+                OR = { 
+                    region = inner_castanor_region
+                    region = west_castanor_region
+                    region = south_castanor_region
+                }
+            }
+            was_never_end_game_tag_trigger = yes
+            normal_or_historical_nations = yes
+            culture_group = goblin
+        }
+        allow = { 
+            adm_tech = 7
+            is_free_or_tributary_trigger = yes
+            is_nomad = no
+            is_at_war = no
+            num_of_owned_provinces_with = {
+				value = 10
+				OR = { 
+                    region = inner_castanor_region 
+                    region = west_castanor_region
+                    region = south_castanor_region
+                }
+			}
+        }
+        effect = {
+            change_tag = 03A
+            change_primary_culture = city_goblin
+            swap_non_generic_missions = yes
+            add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 7300
+			}
+            country_event = { id = ideagroups.1 } #Swap Ideas
+            hidden_effect = { 
+                set_ruler_culture = city_goblin
+                set_heir_culture = city_goblin
+                set_consort_culture = city_goblin
+                every_owned_province = { 
+                    change_culture = city_goblin
+                }
+            }
+        }
+    }
+}

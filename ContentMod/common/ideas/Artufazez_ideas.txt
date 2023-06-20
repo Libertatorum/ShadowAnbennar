@@ -11,10 +11,10 @@
         land_forcelimit_modifier = 0.10
     }
     03A_idea_1 = { 
-        global_manpower_modifier = 0.20
+        global_manpower_modifier = 0.10
     }
     03A_idea_2 = { 
-        land_morale = 0.15
+        land_morale = 0.10
     }
     03A_idea_3 = { 
         global_prov_trade_power_modifier = 0.30
