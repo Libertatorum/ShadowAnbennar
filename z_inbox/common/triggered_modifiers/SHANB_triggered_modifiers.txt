@@ -1,0 +1,9 @@
+SHANB_adenica_formed = {
+    potential = { 
+        tag = B58
+    }
+    trigger = { 
+        tag = B58
+    }
+    shock_damage = -0.30
+}
