@@ -12,13 +12,15 @@
         required_missions = { }
         provinces_to_highlight = { }
 
-        trigger = {
+        trigger = { 
+            #Add trigger checking for castonath patricians in Lower, North, and South castonath plz!
+        }
+        effect = { 
             country_event = { 
                 id = gnomeler_kill_patricians.2000
                 days = 1
             }
         }
-        effect = { }
     }
     01A_1_2 = {
         #this branches off from 01A_2_1, could be some kind of economy mission? 
