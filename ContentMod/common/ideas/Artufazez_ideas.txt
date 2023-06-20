@@ -30,5 +30,6 @@ AA3_ideas = {
     }
     AA3_idea_7 = {
         development_cost_modifier = -0.10
+        technology_cost = -0.05
     }
 }
