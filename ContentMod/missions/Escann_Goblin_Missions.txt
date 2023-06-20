@@ -660,7 +660,7 @@ EscannGob4 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				value = 5
+				value = 2
 				OR = {
 					trade_goods = fur
 					trade_goods = wine
