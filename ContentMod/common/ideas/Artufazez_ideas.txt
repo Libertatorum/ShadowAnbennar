@@ -1,6 +1,6 @@
-03A_ideas = {
+AA3_ideas = {
     trigger = { 
-        tag = 03A
+        tag = AA3
     }
     free = yes
     start = { 
@@ -10,25 +10,25 @@
     bonus = {
         land_forcelimit_modifier = 0.10
     }
-    03A_idea_1 = { 
+    AA3_idea_1 = { 
         global_manpower_modifier = 0.10
     }
-    03A_idea_2 = { 
+    AA3_idea_2 = { 
         land_morale = 0.10
     }
-    03A_idea_3 = { 
+    AA3_idea_3 = { 
         global_prov_trade_power_modifier = 0.30
     }
-    03A_idea_4 = { 
+    AA3_idea_4 = { 
         land_attrition = -0.15
     }
-    03A_idea_5 = { 
+    AA3_idea_5 = { 
         mercantilism_cost = -0.20
     }
-    03A_idea_6 = { 
+    AA3_idea_6 = { 
         reinforce_speed = 0.15
     }
-    03A_idea_7 = {
+    AA3_idea_7 = {
         development_cost_modifier = -0.10
     }
 }

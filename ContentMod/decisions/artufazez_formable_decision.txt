@@ -12,6 +12,7 @@ country_decisions = {
             was_never_end_game_tag_trigger = yes
             normal_or_historical_nations = yes
             culture_group = goblin
+            NOT = { exists = AA3 }
         }
         allow = { 
             adm_tech = 7
@@ -28,7 +29,7 @@ country_decisions = {
 			}
         }
         effect = {
-            change_tag = 03A
+            change_tag = AA3
             change_primary_culture = city_goblin
             swap_non_generic_missions = yes
             add_country_modifier = {

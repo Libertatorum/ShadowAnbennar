@@ -1,8 +1,8 @@
 
 # No previous file for Puerto Deseado
-owner = 01A
-controller = 01A
-add_core = 01A
+owner = AA1
+controller = AA1
+add_core = AA1
 culture = cliff_gnome
 religion = regent_court
 capital = ""

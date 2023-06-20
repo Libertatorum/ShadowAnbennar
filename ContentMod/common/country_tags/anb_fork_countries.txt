@@ -1,3 +1,3 @@
 #Folder for new country tags
-01A = "countries/Chiselwick.txt"
-03A = "countries/Artufazez.txt"
+AA1 = "countries/Chiselwick.txt"
+AA3 = "countries/Artufazez.txt"
