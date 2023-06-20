@@ -1,0 +1,168 @@
+country_event = {
+    id = artufazez_nation_formed.2002
+	title = artufazez_nation_formed.2002.title
+	desc = artufazez_nation_formed.2002.desc
+	picture = BURGHER_ESTATE_eventPicture
+	
+    is_triggered_only = yes
+    option = { #We need a republic!
+        name = artufazez_nation_formed_option.1
+        hidden_effect = {
+            every_owned_province = {
+                limit = { tribal_land_of = ROOT }
+                create_colony = 1000
+            }
+        }
+        change_government = republic
+        add_government_reform = technocracy_republic_reform
+        country_event = {
+            id = artufazez_reforms.2003
+            days = 1
+            tooltip = ARTUFAZEZ_REFORMS_EVENT_TOOLTIP
+        }
+    }
+    option = { #We need a king!
+        name = artufazez_nation_formed_option.2
+        hidden_effect = {
+            every_owned_province = {
+                limit = { tribal_land_of = ROOT }
+                create_colony = 1000
+            }
+        }
+        change_government = monarchy
+        add_government_reform = reformed_goblinoid_kingdom_reform
+        country_event = {
+            id = artufazez_reforms.2003
+            days = 1
+            tooltip = ARTUFAZEZ_REFORMS_EVENT_TOOLTIP
+        }
+    }
+    option = { #We need to focus on religion!
+        name = artufazez_nation_formed_option.3
+        hidden_effect = {
+            every_owned_province = {
+                limit = { tribal_land_of = ROOT }
+                create_colony = 1000
+            }
+        }
+        change_government = theocracy
+        country_event = {
+            id = artufazez_reforms.2003
+            days = 1
+            tooltip = ARTUFAZEZ_REFORMS_EVENT_TOOLTIP
+        }
+    }
+}
+country_event = {
+    id = artufazez_reforms.2003
+    title = artufazez_reforms.2003.title
+    desc = artufazez_reforms.2003.desc
+    picture = BURGHER_ESTATE_eventPicture
+
+    is_triggered_only = yes
+    option = { #Let's focus on military expertise!
+        name = artufazez_reforms_option.1
+        add_country_modifier = {
+            name = artufazez_military_fixing
+            duration = 9132
+        }
+        hidden_effect = {
+            set_country_flag = artufazez_military_reforming
+        }
+    }
+    option = { #Let's focus on inflation and securing better loans!
+        name = artufazez_reforms_option.2
+        add_country_modifier = {
+            name = artufazez_economy_fixing
+            duration = 9132
+        }
+        hidden_effect = {
+            set_country_flag = artufazez_economy_reforming
+        }
+    }
+    option = { #Let's focus on technology and developing our country!
+        name = artufazez_reforms_option.3
+        add_country_modifier = {
+            name = artufazez_science_fixing
+            duration = 9132
+        }
+        hidden_effect = {
+            set_country_flag = artufazez_science_reforming
+        }
+    }
+}
+country_event = {
+    id = artufazez_military_expertise.2004
+    title = artufazez_military_expertise.2004.title
+    desc = artufazez_military_expertise.2004.desc
+    picture = BURGHER_ESTATE_eventPicture
+
+    trigger = {
+        NOT = {
+            has_country_modifier = artufazez_military_fixing
+        }
+        has_country_flag = artufazez_military_reforming
+    }
+    option = { #Our reforms are done!
+        name = artufazez_military_expertise_option.1
+        add_country_modifier = {
+            name = artufazez_military_fixed
+            duration = -1
+            hidden = no
+        }
+        hidden_effect = {
+            clr_country_flag = artufazez_military_reforming
+            set_country_flag = artufazez_military_reformed
+        }
+    }
+}
+country_event = {
+    id = artufazez_economy_expertise.2005
+    title = artufazez_economy_expertise.2005.title
+    desc = artufazez_economy_expertise.2005.desc
+    picture = BURGHER_ESTATE_eventPicture
+
+    trigger = {
+        NOT = {
+            has_country_modifier = artufazez_economy_fixing
+        }
+        has_country_flag = artufazez_economy_reforming
+    }
+    option = { #Our reforms are done!
+        name = artufazez_economy_expertise_option.1
+        add_country_modifier = {
+            name = artufazez_economy_fixed
+            duration = -1
+            hidden = no
+        }
+        hidden_effect = {
+            clr_country_flag = artufazez_economy_reforming
+            set_country_flag = artufazez_economy_reformed
+        }
+    }
+}
+country_event = {
+    id = artufazez_science_expertise.2006
+    title = artufazez_science_expertise.2006.title
+    desc = artufazez_science_expertise.2006.desc
+    picture = BURGHER_ESTATE_eventPicture
+
+    trigger = {
+        NOT = {
+            has_country_modifier = artufazez_science_fixing
+        }
+        has_country_flag = artufazez_science_reforming
+    }
+    option = { #Our reforms are done!
+        name = artufazez_science_expertise_option.1
+        add_country_modifier = {
+            name = artufazez_science_fixed
+            duration = -1
+            hidden = no
+        }
+        hidden_effect = {
+            clr_country_flag = artufazez_science_reforming
+            set_country_flag = artufazez_science_reformed
+        }
+    }
+}

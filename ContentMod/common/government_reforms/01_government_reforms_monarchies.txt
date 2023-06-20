@@ -2518,6 +2518,16 @@ reformed_goblinoid_kingdom_reform = {
 		OR = {
 			primary_culture = cave_goblin
 			primary_culture = undergrowth_goblin
+			AND = {
+				culture_group = goblin
+				capital_scope = {
+					OR = {
+						region = inner_castanor
+						region = west_castanor
+						region = south_castanor
+					}
+				}
+			}
 		}
 	}
 	modifiers = {

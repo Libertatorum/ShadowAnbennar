@@ -150,7 +150,13 @@ AA3_missions_3 = {
 
         provinces_to_highlight = { }
         trigger = { }
-        effect = { }
+        effect = {
+            country_event = {
+                id = artufazez_nation_formed.2002
+                days = 1
+                tooltip = ARTUFAZEZ_NATION_FORMED
+            }
+        }
     }
     AA3_3_2 = { #Could be another government reform. Royal palace/Town hall/Great temple must be built?
         icon = mission_unknown_mission

@@ -1,0 +1,32 @@
+artufazez_military_fixing = {
+    discipline = -0.05
+    land_morale = -0.10
+    drill_gain_modifier = -0.50
+    drill_decay_modifier = 0.10
+    leader_cost = 0.10
+}
+artufazez_economy_fixing = {
+    inflation_action_cost = 0.25
+    interest = 1
+    production_efficiency = -0.10
+    build_time = 0.20
+}
+artufazez_science_fixing = {
+    technology_cost = 0.15
+    innovativeness_gain = -0.25
+    embracement_cost = 0.20
+    idea_cost = 0.20
+}
+artufazez_military_fixed = {
+    discipline = 0.025
+    land_morale = 0.10
+    drill_gain_modifier = 0.20
+    drill_decay_modifier = -0.05
+    leader_cost = -0.05
+}
+artufazez_economy_fixed = {
+    inflation_reduction = 0.10
+    interest = -1
+    production_efficiency = 0.20
+    build_time = -0.20
+}
