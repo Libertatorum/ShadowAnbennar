@@ -1,0 +1,354 @@
+AA3_missions_1 = {
+    slot = 1
+	generic = no
+	ai = yes 
+	has_country_shield = yes
+	potential = { tag = AA3 }
+    AA3_1_1 = { #Economic wing. Grain? There's alot of grain in Escann. Perhaps Goblins make *bread*... haha, get it? Bread, like money? But also grain? I'll see myself out...
+        icon = mission_unknown_mission
+        position = 1
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_1_2 = { #A military mission centered around quantity, rather than quality. Goblin recruitment propaganda of some kind.
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = {
+            AA3_2_1
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_1_3 = { #Going down the idea of quantity... perhaps supply limit modifier? Infrastructure debuffs, such as build cost/time for 25yrs, then a perm. modifier of supply limit?
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
+            AA3_1_2
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_1_4 = { #Something involving economy. This can be completed any time. Gold rush, perhaps? Goblins LOVE gold!
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_1_5 = { #This happens after the economic mission. Something new, maybe perhaps dev cost? -0.05 dev cost, something very minor. I dunno.
+        icon = mission_unknown_mission
+        position = 5 
+        required_missions = { 
+            AA3_1_4 
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+}
+#slot = 1
+#generic = no
+#ai = yes 
+#has_country_shield = yes
+#potential = { tag = AA3 }
+#icon = mission_unknown_mission
+#position = 1
+#required_missions = { }
+#
+#provinces_to_highlight = { }
+#trigger
+#effect
+AA3_missions_2 = {
+    slot = 2
+	generic = no
+	ai = yes 
+	has_country_shield = yes
+	potential = { tag = AA3 }
+    AA3_2_1 = { #This can be a military reform of some kind. A 10 year purge. These guys have got Artificers, so maybe something involving that? Setting up artificers?
+        icon = mission_unknown_mission
+        position = 1
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_2_2 = { #Going down the military reform, focusing on quality rather than quantity.
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = {
+            AA3_2_1
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_2_3 = { #Working our way down to cannons, artillery. Goblins can cannon!
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
+            AA3_2_2
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_2_4 = { #New mission here, same concept though. Perhaps something to do with claims on EoA? Goblins look for more clay? This can be done at any time.
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_2_5 = { #This happens after the BIG mission. Some drastic military reforms... akin to the Stalinist purge?
+        icon = mission_unknown_mission
+        position = 5 
+        required_missions = { 
+            AA3_3_4 
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_2_6 = { #The final military reform. What'll it be? This comes right after demonsterifying.
+        icon = mission_unknown_mission
+        position = 6
+        required_missions = { 
+            AA3_3_5
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+}
+AA3_missions_3 = {
+    slot = 3
+	generic = no
+	ai = yes 
+	has_country_shield = yes
+	potential = { tag = AA3 }
+    AA3_3_1 = { #This can be a great celebration and an establishment of government! Monarchy, republic, theocracy...?
+        icon = mission_unknown_mission
+        position = 1
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_2 = { #Could be another government reform. Royal palace/Town hall/Great temple must be built?
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = { 
+            AA3_3_1
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_3 = { #Perhaps this could be a government reform involving advisors? Setting the advisor pool to 0 for something absurd like 50 years, then giving a -0.25 advisor cost permanently?
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
+            AA3_3_2
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_4 = { #Big government event-- something HAS to go down here.
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = {
+            AA3_1_3
+            AA3_2_3
+            AA3_3_3
+            AA3_4_3
+            AA3_5_3
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_5 = { #A set of government reforms, causing events, demonsterifying, who knows?
+        icon = mission_unknown_mission
+        position = 5 
+        required_missions = { 
+            AA3_3_4 
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_6 = { #One of the last 3 missions until the final mission. Going down the government line still, maybe some royal event? A debating thing, or a trials thing?
+        icon = mission_unknown_mission
+        position = 6
+        required_missions = { 
+            AA3_3_5
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_3_7 = { #The last mission! Could be something really hard to attain but gives a forever bonus.
+        icon = mission_unknown_mission
+        position = 7
+        required_missions = {
+            AA3_3_6
+            AA3_4_6
+            AA3_2_6
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+}
+AA3_missions_4 = {
+    slot = 4
+	generic = no
+	ai = yes 
+	has_country_shield = yes
+	potential = { tag = AA3 }
+    AA3_4_1 = { #Religious reform. Choosing between Goblin Shamanism (basically reskinned Fetishism), Regent Court/Corinite/Ravelian, or something... new? (New religion)
+        icon = mission_unknown_mission
+        position = 1
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_4_2 = { #Branching from the funny mission, on the 4 side.
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = {
+            AA3_5_1
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_4_3 = { #Branching.
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
+            AA3_4_2
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_4_4 = { #Completed on its own. Something involving culture?
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_4_5 = { #Not sure... maybe some kind of... honestly no clue. I've ran out of ideas.
+        icon = mission_unknown_mission
+        position = 5 
+        required_missions = { 
+            AA3_3_4 
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_4_6 = { #See above.
+        icon = mission_unknown_mission
+        position = 6
+        required_missions = { 
+            AA3_3_5
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+}
+AA3_missions_5 = {
+    slot = 5
+	generic = no
+	ai = yes 
+	has_country_shield = yes
+	potential = { tag = AA3 }
+    AA3_5_1 = { #This could be... some funny mission? Not sure. But it definitely branches into the other two!
+        icon = mission_unknown_mission
+        position = 1
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_5_2 = { #Branching from the funny mission, on the 5 side.
+        icon = mission_unknown_mission
+        position = 2
+        required_missions = { 
+            AA3_5_1
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_5_3 = { #Branching more.
+        icon = mission_unknown_mission
+        position = 3
+        required_missions = { 
+            AA3_5_2
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_5_4 = { #Not sure. But this can be completed any time. So, maybe, integrating humans?
+        icon = mission_unknown_mission
+        position = 4
+        required_missions = { }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+    AA3_5_5 = { #Diplomacy? Something relating to our reputation?
+        icon = mission_unknown_mission
+        position = 5 
+        required_missions = { 
+            AA3_5_4 
+        }
+
+        provinces_to_highlight = { }
+        trigger = { }
+        effect = { }
+    }
+}
