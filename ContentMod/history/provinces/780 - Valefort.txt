@@ -1,0 +1,14 @@
+owner = AA1
+controller = AA1
+add_core = AA1
+culture = cliff_gnome
+religion = regent_court
+capital = ""
+hre = no
+
+is_city = yes
+base_tax = 1
+base_production = 3
+base_manpower = 2
+
+trade_goods = gems
