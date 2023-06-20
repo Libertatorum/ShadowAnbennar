@@ -1,0 +1,16 @@
+country_event = { 
+    id = SHANB_adenica_formed.2001
+	title = SHANB_adenica_formed.2001.title
+	desc = SHANB_adenica_formed.2001.desc
+	picture = PRINCE_BISHOP_RESIGN_eventPicture
+
+    major = yes 
+    major_trigger = {
+        tag = B58
+    }
+
+    option = {
+        name = SHANB_adenica_formed_option.1
+        add_stability = -6
+    }
+}
