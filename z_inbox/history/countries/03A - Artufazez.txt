@@ -1,0 +1,6 @@
+setup_vision = yes
+government = monarchy
+government_rank = 1
+primary_culture = city_goblin
+religion = goblinic_shamanism
+technology_group = tech_goblin
