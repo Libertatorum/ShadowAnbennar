@@ -36,3 +36,6 @@ artufazez_science_fixed = {
     embracement_cost = -0.25
     idea_cost = -0.15
 }
+artufazez_grain_produced = {
+    global_trade_goods_size_modifier = 0.025
+}

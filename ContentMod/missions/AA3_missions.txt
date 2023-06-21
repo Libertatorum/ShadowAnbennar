@@ -10,8 +10,18 @@ AA3_missions_1 = {
         required_missions = { }
 
         provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
+        trigger = {
+            num_of_owned_provinces_with = {
+                value = 5
+                trade_goods = grain
+            }
+        }
+        effect = {
+            add_country_modifier = {
+                name = artufazez_grain_produced
+                duration = -1
+            }
+        }
     }
     AA3_1_2 = { #A military mission centered around quantity, rather than quality. Goblin recruitment propaganda of some kind.
         icon = mission_unknown_mission
