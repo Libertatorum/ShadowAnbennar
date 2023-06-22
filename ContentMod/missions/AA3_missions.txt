@@ -34,17 +34,6 @@ AA3_missions_1 = {
         trigger = { }
         effect = { }
     }
-    AA3_1_3 = { #Going down the idea of quantity... perhaps supply limit modifier? Infrastructure debuffs, such as build cost/time for 25yrs, then a perm. modifier of supply limit?
-        icon = mission_unknown_mission
-        position = 3
-        required_missions = { 
-            AA3_1_2
-        }
-
-        provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
-    }
     AA3_1_4 = { #Something involving economy. This can be completed any time. Gold rush, perhaps? Goblins LOVE gold!
         icon = mission_unknown_mission
         position = 4
@@ -194,11 +183,8 @@ AA3_missions_3 = {
         icon = mission_unknown_mission
         position = 4
         required_missions = {
-            AA3_1_3
             AA3_2_3
             AA3_3_3
-            AA3_4_3
-            AA3_5_3
         }
 
         provinces_to_highlight = { }
@@ -256,31 +242,9 @@ AA3_missions_4 = {
         trigger = { }
         effect = { }
     }
-    AA3_4_2 = { #Branching from the funny mission, on the 4 side.
+    AA3_4_2 = { #Completed on its own. Something involving culture?
         icon = mission_unknown_mission
         position = 2
-        required_missions = {
-            AA3_5_1
-        }
-
-        provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
-    }
-    AA3_4_3 = { #Branching.
-        icon = mission_unknown_mission
-        position = 3
-        required_missions = { 
-            AA3_4_2
-        }
-
-        provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
-    }
-    AA3_4_4 = { #Completed on its own. Something involving culture?
-        icon = mission_unknown_mission
-        position = 4
         required_missions = { }
 
         provinces_to_highlight = { }
@@ -320,28 +284,6 @@ AA3_missions_5 = {
         icon = mission_unknown_mission
         position = 1
         required_missions = { }
-
-        provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
-    }
-    AA3_5_2 = { #Branching from the funny mission, on the 5 side.
-        icon = mission_unknown_mission
-        position = 2
-        required_missions = { 
-            AA3_5_1
-        }
-
-        provinces_to_highlight = { }
-        trigger = { }
-        effect = { }
-    }
-    AA3_5_3 = { #Branching more.
-        icon = mission_unknown_mission
-        position = 3
-        required_missions = { 
-            AA3_5_2
-        }
 
         provinces_to_highlight = { }
         trigger = { }
