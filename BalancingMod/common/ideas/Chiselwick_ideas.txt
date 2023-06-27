@@ -1,0 +1,41 @@
+#Chiselwick ideas
+AA1_ideas = {
+	start = {
+		fire_damage = 0.1
+		drill_gain_modifier = 0.25
+	}
+
+	bonus = {
+		artillery_power = 0.1
+	}
+
+	trigger = {
+		OR = {
+			tag = AA1 #Chiselwick
+		}
+	}
+	free = yes		#will be added at load.
+
+	AA1_fourteen_words = { #AE 0.15
+		ae_impact = -0.15
+	}
+	AA1_gnommish_brilliance = { #Innovative 0.30
+		innovativeness_gain = 0.3
+	}
+	AA1_honorary_gnomes = { # Manpower +0.15
+		global_manpower_modifier = 0.15
+	}
+	AA1_pinkshirts = { #Autonomy -0.15
+		autonomy_change_time = -0.15
+	}
+	AA1_replace_merchant = { #Merchants 
+		merchants = 2
+	}
+	AA1_state_industry = { #Production
+		production_efficiency = 0.10
+	}
+	AA1_gnomestown = {  # Discipline
+		discipline = 0.05
+	}
+	
+}
