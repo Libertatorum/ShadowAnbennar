@@ -101,7 +101,7 @@ categories =  {
 			44 265 267 269 274 275 279 280 297 310 311 333 901 902 909 916 917 
 			
 			#Alenic Expanse
-			218 219 220 221 243 245 256 337 339 340 
+			218 219 220 243 245 256 337 339 340 
 			
 			#Alenic Reach
 			695 699 724 721 709 718
@@ -209,7 +209,7 @@ categories =  {
 			228
 			
 			#Alenic Reach
-			697 722 712 713 714 717 735
+			213 697 722 712 713 714 717 735 
 
 			#Lake cities
 			5272 5269 5268 5233 5300 5289 5288 5275 5267 5266 5254 5245 5230 5231
@@ -324,6 +324,9 @@ categories =  {
 			#Alenic Frontier
 			217 346 
 			
+			#Alenic Expanse
+			222 235 237
+
 			#Damescrown
 			254
 			
@@ -1392,6 +1395,8 @@ categories =  {
 			723 #Bayvic
 			911 #Telgeir
 			915 #Crothan
+			221 #Gaweton - Alenic Expanse
+
 
 			#Kheterata
 			475
